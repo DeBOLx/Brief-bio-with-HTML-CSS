@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+}
+.animate{
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+    @keyframes slidein {
+        from {
+        margin-left: 100%;
+        width:300%;
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+}
+header {
+    background-color: green;
+    border-radius: 3px;
+    font-weight: bold;
+    max-width: 100px;
+}
+h1 {
+    color:inherit;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    border: solid black;
+    border-style:dashed;
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+}
+h4 {
+    color: brown;
+    background-color: #fff;
+    border: solid brown;
+    border-color: brown;
+    border-radius: 10px;
+    text-align:center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
